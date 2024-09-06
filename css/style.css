@@ -55,6 +55,11 @@ body {
     width: 90%;
 }
 
+.booki-logo {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -85,10 +90,38 @@ body {
 
 /*header*/
 
-.search-container-bar {
+.search-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.search-group {
+    display: flex;
+}
+
+.loc-icon {
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--filter-bg-color);
+    height: 50px;
+    width: 50px;
+}
+
+.search {
+    border: 1px solid var(--main-color);
+    height: 50px;
+    position: relative;
+    transition: border-color 0.2s ease-in-out;
+    padding: 0 10px;
+}
+
+.search-button {
+    background-color: var(--main-color);
+    border-radius: 0 10px 10px 0;
 }
 
 .nav-buttons {
@@ -139,6 +172,78 @@ body {
       width: 100%;
     }
   }
+
+  .filter-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+
+    .label {
+        border: none;
+    }
+
+    li {
+        height: 50px;
+		border-radius: 25px;
+		border: 3px solid var(--filter-bg-color);
+		display: flex;
+		flex: 0 0 calc((100% / 6) - (20px * (5 / 6)));
+		align-items: center;
+		font-weight: 700;
+		transition: all 0.3s ease-in-out;
+
+		&.label {
+			border: none;
+		}
+
+		&:hover {
+			color: var(--brand-primary);
+			cursor: pointer;
+
+			svg {
+				transform: rotate(20deg) scale(1.1);
+			}
+		}
+    }
+  }
+
+  .icon {
+	align-items: center;
+	background-color: var(--brand-primary-lighter);
+	border-radius: 50%;
+	display: flex;
+	flex-shrink: 0;
+	height: 52px;
+	justify-content: center;
+	width: 52px;
+	margin-right: 10px;
+	margin-left: -2px;
+	svg {
+		fill: var(--brand-primary);
+		height: auto;
+		width: 25px;
+		transition: all 0.3s ease-in-out;
+	}
+}
+
+  .info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+.info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--filter-bg-color);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
 
 /****** Accommodation And Popular ***********/
 .accommodation-and-popular {
@@ -310,7 +415,9 @@ body {
 
 footer {
     display: grid;
-    gap: 50px;
+    margin-top: 40px;
+    padding: 30px 0;
+    background-color: var(--filter-bg-color);
 }
 
 .footer-columns {
@@ -335,11 +442,12 @@ footer {
 }
 
 .list-link {
-    color: var(--main-color);
+    color: black;
     font-size: 15pt;
     text-decoration: none;
 }
 
 .list-link:hover {
     text-decoration: underline;
+    color: var(--main-color);
 }
