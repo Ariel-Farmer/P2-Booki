@@ -103,6 +103,7 @@ body {
 
 .search-group {
 	display: flex;
+	margin: 20px;
 	/* flex-wrap: wrap; */
 }
 
@@ -327,7 +328,7 @@ nav a:hover {
 .popular {
 	display: flex;
 	flex-direction: column;
-	padding: 30px 30px;
+	padding: 30px 20px;
 	background-color: var(--main-bg-color);
 }
 
@@ -485,9 +486,9 @@ footer {
 		justify-content: center;
 	}
 	.popular-cards {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
 	}
 }
 
@@ -512,7 +513,7 @@ footer {
 	}
 
 	.search-container {
-		padding: 20px;
+		/* padding: 20px; */
 	}
 
 	.filter-list li {
@@ -598,8 +599,7 @@ footer {
 	}
 
 	.postcard img {
-		height: 145px;
-		width: 315px;
+		flex-basis: auto;
 	}
 
 	.footer-columns {
