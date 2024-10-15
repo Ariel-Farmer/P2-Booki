@@ -538,10 +538,10 @@ footer {
 		margin-left: 15px;
 	}
 
-	.fa-solid,
+	/* .fa-solid,
 	.fa-regular {
 		margin-right: 15px;
-	}
+	} */
 
 	.popular-cards {
 		display: flex;
