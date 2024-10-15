@@ -589,10 +589,11 @@ footer {
 	}
 
 	.activities-cards {
-		display: flex;
+		/* display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: center; */
 		gap: 15px;
+		grid-template-columns: 1fr;
 	}
 
 	.activities-cards .postcard {
