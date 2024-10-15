@@ -399,7 +399,7 @@ nav a:hover {
 
 .activities-cards .postcard {
 	background-color: var(--main-bg-color);
-	max-width: 300px;
+	/* max-width: 300px; */
 	border-radius: 20px;
 }
 
