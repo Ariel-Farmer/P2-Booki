@@ -270,9 +270,9 @@ nav a:hover {
 
 /****** Accommodation ***********/
 .accommodation {
-	display: grid;
+	/* display: grid; */
 	gap: 30px;
-	grid-template-columns: auto;
+	/* grid-template-columns: auto; */
 	padding: 30px 20px;
 	background-color: var(--main-bg-color);
 }
@@ -326,8 +326,8 @@ nav a:hover {
 
 /****** Popular ***********/
 .popular {
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column; */
 	padding: 30px 20px;
 	background-color: var(--main-bg-color);
 }
@@ -583,7 +583,7 @@ footer {
 
 	.accommodation .accommodation-cards {
 		grid-template-columns: 1fr;
-		justify-items: center;
+		/* justify-items: center; */
 	}
 
 	.activities-cards {
