@@ -377,10 +377,10 @@ nav a:hover {
 /* activities */
 
 .activities {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
 	padding: 30px;
-	gap: 20px;
+	gap: 20px; */
 }
 
 .activities-section-title {
