@@ -240,8 +240,8 @@ nav a:hover {
 .info {
 	display: flex;
 	align-items: center;
-	gap: 12px;
-	margin: 10px;
+	gap: 10px;
+	margin: 0 10px 20px 10px;
 }
 
 .info-icon {
@@ -272,12 +272,8 @@ nav a:hover {
 /****** Accommodation ***********/
 .accommodation {
 	gap: 30px;
-	padding: 30px 20px;
+	padding: 30px 20px 0 20px;
 	background-color: var(--main-bg-color);
-}
-
-.accommodation-title {
-	margin-bottom: 30px;
 }
 
 .accommodation-cards {
@@ -301,6 +297,7 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	margin-left: 10px;
 }
 
 .accommodation-cards .card-title {
@@ -364,11 +361,10 @@ nav a:hover {
 /* activities */
 
 .activities {
-	margin: 10px;
+	margin: 20px;
 }
 
 .activities-section-title {
-	font-style: 20px;
 }
 
 .activities-cards {
@@ -516,10 +512,6 @@ footer {
 	.popular {
 		/* padding: 0px;
 		width: 100vw; */
-	}
-	.section-title {
-		margin-top: 30px;
-		margin-left: 15px;
 	}
 
 	.popular-cards {
