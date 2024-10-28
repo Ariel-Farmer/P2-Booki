@@ -150,7 +150,7 @@ nav ul {
 	gap: 20px;
 	padding: 0;
 	background-color: none;
-	margin-top: 0px;
+	margin-top: 2px;
 }
 
 .nav-links {
@@ -281,10 +281,6 @@ nav a:hover {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
-}
-
-.accommodation-cards .card {
-	gap: 10px;
 }
 
 .accommodation-cards img {
@@ -521,7 +517,6 @@ footer {
 
 	.accommodation-and-popular section {
 		border-radius: 0px;
-		place-items: center;
 	}
 
 	.accommodation .accommodation-cards {
