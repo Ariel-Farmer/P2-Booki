@@ -134,6 +134,7 @@ body {
 .search-input {
 	flex-basis: calc(100% - 150px);
 	max-width: 225px;
+	border: 1px solid var(--filter-bg-color);
 }
 
 nav ul {
@@ -186,11 +187,12 @@ nav a:hover {
 	border-radius: 25px;
 	background-color: var(--main-bg-color);
 	display: flex;
-	flex: 0 0 calc((100% / 6) - (20px * (5 / 6)));
+	/* flex: 0 0 calc((100% / 6) - (20px * (5 / 6))); */
+	padding: 0 10px;
 	align-items: center;
 	font-weight: 700;
 	transition: all 0.3s ease-in-out;
-	filter: none;
+	/* filter: none; */
 
 	&.label {
 		border: none;
@@ -219,20 +221,21 @@ nav a:hover {
 .icon {
 	align-items: center;
 	background-color: var(--brand-primary-lighter);
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	display: flex;
-	flex-shrink: 0;
-	height: 52px;
-	justify-content: center;
-	align-items: center;
-	width: 52px;
-	margin-right: 10px;
-	margin-left: -2px;
+	/* flex-shrink: 0; */
+	/* height: 52px; */
+	/* justify-content: center;
+	align-items: center; */
+	/* width: auto; */
+	/* margin-right: 10px;
+	margin-left: -2px; */
 	svg {
 		fill: var(--brand-primary);
 		height: auto;
 		width: 25px;
 		transition: all 0.3s ease-in-out;
+		padding-right: 10px;
 	}
 }
 
@@ -490,7 +493,7 @@ footer {
 	}
 
 	.filter-list li {
-		flex-basis: calc(50% - 10px);
+		flex-basis: calc(50% - 52px);
 		&.label {
 			flex-basis: 100%;
 			font-size: large;
@@ -505,7 +508,6 @@ footer {
 
 	.accommodation {
 		background-color: white;
-		place-items: center;
 	}
 
 	.accommodation-and-popular section {
