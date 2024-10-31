@@ -62,15 +62,25 @@ body {
 .card {
 	background-color: white;
 	border-radius: 20px;
+	text-decoration: none;
 	filter: drop-shadow(0px 3px 15px #d9d9d9);
 }
 
 .card:hover {
 	filter: drop-shadow(0px 10px 8px #d9d9d9);
+
+	& .card-title {
+		text-decoration: underline;
+		color: var(--main-color);
+	}
 }
 
 .card img {
 	object-fit: cover;
+}
+
+.card-txt {
+	color: black;
 }
 
 .card-title {
@@ -195,12 +205,15 @@ nav a:hover {
 	font-size: small;
 	height: 50px;
 	border-radius: 25px;
-	background-color: var(--main-bg-color);
+	background-color: white;
+	border: 2px solid #d9d9d9;
 	display: flex;
 	padding: 0 10px;
 	align-items: center;
 	font-weight: 700;
 	transition: all 0.3s ease-in-out;
+	padding: 0 15px;
+	gap: 8px;
 
 	&.label {
 		border: none;
@@ -210,9 +223,7 @@ nav a:hover {
 	}
 
 	&:hover {
-		color: var(--brand-primary);
-		cursor: pointer;
-		filter: drop-shadow(0px 10px 8px #d9d9d9);
+		background-color: #deebff;
 
 		svg {
 			transform: rotate(20deg) scale(1.1);
@@ -379,12 +390,19 @@ nav a:hover {
 	border-radius: 20px;
 }
 
+.postcard {
+	text-decoration: none;
+}
+
 .postcard:hover {
 	filter: drop-shadow(0px 10px 8px #d9d9d9);
+	text-decoration: underline;
+	color: var(--main-color);
 }
 
 .postcard-title {
 	margin: 10px 20px 10px 20px;
+	color: black;
 }
 
 .postcard img {
@@ -414,11 +432,11 @@ footer {
 
 .footer-column {
 	display: grid;
-	padding: 0 30px 15px 30px;
+	padding: 0 30px 15px 0px;
 }
 
 .C-title {
-	font-size: 17pt;
+	font-size: 20pt;
 	font-weight: bold;
 }
 
