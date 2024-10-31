@@ -154,7 +154,7 @@ body {
 }
 
 .search-input {
-	flex-basis: calc(100% - 150px);
+	flex-basis: calc(100% - 100px);
 	max-width: 225px;
 	padding-left: 25px;
 	border: 1px solid var(--filter-bg-color);
@@ -522,6 +522,10 @@ footer {
 
 	.search-button {
 		flex-basis: 50px;
+	}
+
+	.search-input {
+		max-width: auto;
 	}
 
 	.search-icon {
