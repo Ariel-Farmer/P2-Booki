@@ -129,11 +129,13 @@ body {
 	background-color: var(--main-color);
 	border-radius: 0 10px 10px 0;
 	flex-basis: 100px;
+	border: 1px solid var(--main-color);
 }
 
 .search-input {
 	flex-basis: calc(100% - 150px);
 	max-width: 225px;
+	padding-left: 25px;
 	border: 1px solid var(--filter-bg-color);
 }
 
@@ -146,14 +148,21 @@ nav ul {
 	gap: 20px;
 	padding: 0;
 	background-color: none;
-	margin-top: 2px;
+	margin-top: 0;
 }
 
-.nav-links {
-	color: black;
+.nav-link1 {
 	text-decoration: none;
 	padding-top: 14px;
 	display: inline-block;
+	color: #0065fc;
+}
+
+.nav-link2 {
+	text-decoration: none;
+	padding-top: 14px;
+	display: inline-block;
+	color: black;
 }
 
 nav a:hover {
@@ -384,7 +393,7 @@ nav a:hover {
 }
 
 .postcard-title {
-	margin: 20px;
+	margin: 10px 20px 10px 20px;
 }
 
 .postcard img {
