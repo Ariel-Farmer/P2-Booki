@@ -532,11 +532,12 @@ footer {
 		width: 100%;
 	}
 
-	.nav-links {
+	/* .nav-links {
 		text-decoration: underline;
 		text-underline-offset: 20px;
 		display: none;
-	}
+	} */
+
 	.nav-link1 {
 		border-top: none;
 		border-bottom: 2px solid #0065fc;
@@ -547,7 +548,7 @@ footer {
 		border-bottom: 2px solid #f2f2f2;
 	}
 
-	header nav ul {
+	header li {
 		flex-basis: 50%;
 	}
 
