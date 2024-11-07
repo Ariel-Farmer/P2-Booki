@@ -442,7 +442,7 @@ footer {
 
 .footer-column {
 	display: grid;
-	padding: 0 30px 15px 0px;
+	padding: 0 0 15px 15px;
 }
 
 .C-title {
