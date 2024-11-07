@@ -189,6 +189,7 @@ nav ul {
 }
 
 .nav-link2 {
+	border-top: 2px solid transparent;
 	text-decoration: none;
 	padding-top: 14px;
 	display: inline-block;
