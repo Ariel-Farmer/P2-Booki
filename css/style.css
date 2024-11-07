@@ -152,6 +152,10 @@ body {
 	align-items: center;
 }
 
+.search-button:hover {
+	cursor: pointer;
+}
+
 .search-input {
 	flex-basis: calc(100% - 100px);
 	max-width: 225px;
@@ -187,6 +191,7 @@ nav ul {
 
 nav a:hover {
 	border-top: 2px solid var(--main-color);
+	cursor: pointer;
 }
 
 .filter-list {
@@ -199,6 +204,9 @@ nav a:hover {
 	gap: 20px;
 	padding: 0;
 	margin: 10px;
+}
+.filter-list li:not(.label):hover {
+	cursor: pointer;
 }
 
 .filter-list:hover {
