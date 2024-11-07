@@ -544,9 +544,10 @@ footer {
 
 	.nav-link2 {
 		border-top: none;
+		border-bottom: 2px solid #f2f2f2;
 	}
 
-	header li {
+	header nav ul {
 		flex-basis: 50%;
 	}
 
