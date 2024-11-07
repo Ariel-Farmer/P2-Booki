@@ -118,9 +118,9 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: var(--filter-bg-color);
-	height: 50px;
-	flex-basis: 50px;
+	/* background-color: var(--filter-bg-color);
+	height: 50px; */
+	/* flex-basis: 50px; */
 }
 
 .search {
