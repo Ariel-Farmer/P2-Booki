@@ -37,6 +37,11 @@ body {
 	}
 }
 
+header {
+	width: 80vw;
+	margin: 0 auto;
+}
+
 .flex-container {
 	display: flex;
 	flex-direction: row;
