@@ -147,7 +147,7 @@ nav a.nav-link1 {
 }
 
 .search-bar {
-	padding: 10px;
+	padding: 10px 0;
 }
 
 .search-group {
@@ -219,7 +219,7 @@ nav a.nav-link1 {
 	list-style-type: none;
 	gap: 20px;
 	padding: 0;
-	margin: 10px;
+	margin: 10px 0;
 }
 .filter-list li:not(.label):hover {
 	cursor: pointer;
@@ -253,6 +253,7 @@ nav a.nav-link1 {
 		filter: none;
 		background-color: white;
 		flex-basis: auto;
+		padding-left: 0;
 	}
 
 	&:hover {
@@ -287,7 +288,7 @@ nav a.nav-link1 {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	margin: 0 10px 10px 10px;
+	margin: 10px 0;
 }
 
 .info-icon {
@@ -301,9 +302,6 @@ nav a.nav-link1 {
 }
 
 /****** Accommodation And Popular ***********/
-.accommodation-and-popular {
-	padding: 10px;
-}
 
 .accom-and-pop-contents {
 	display: grid;
@@ -406,10 +404,8 @@ nav a.nav-link1 {
 	margin-bottom: 5px;
 }
 
-/* activities */
-
 .activities {
-	margin: 20px;
+	margin: 65px 30px;
 }
 
 .activities-cards {
