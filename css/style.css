@@ -428,13 +428,17 @@ nav a.nav-link1 {
 
 .postcard:hover {
 	filter: drop-shadow(0px 10px 8px #d9d9d9);
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	color: var(--main-color);
 }
 
 .postcard-title {
 	margin: 10px 20px 10px 20px;
 	color: black;
+}
+.postcard-title:hover {
+	color: #0065fc;
+	text-decoration: underline;
 }
 
 .postcard img {
